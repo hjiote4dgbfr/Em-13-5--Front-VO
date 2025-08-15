@@ -1,27 +1,13 @@
 import { useState } from 'react'
+import data from './fixtures/cardstextData.json'
 import './App.css'
+import CardText from './assets/components'
 
-function App() {
-  const [count, setCount] = useState(0)
+function App() { 
 
   return (
     <>
-      <div>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-      <h3>Hello World</h3>
-      <h4>Hello World</h4>
+       <CardText {...data[0]} />
     </>
   )
 }

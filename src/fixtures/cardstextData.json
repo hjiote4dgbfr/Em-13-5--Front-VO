@@ -1,0 +1,23 @@
+  [
+  {
+    id: 1,
+    time: new Date('2025-08-14'),
+    title: 'Оновлення сайту запущено',
+    link: 'https://example.com/news/1',
+    isImportant: true
+  },
+  {
+    id: 2,
+    time: new Date('2025-08-13'),
+    title: 'Заплановано технічне обслуговування',
+    link: 'https://example.com/news/2',
+    isImportant: false
+  },
+  {
+    id: 3,
+    time: new Date('2025-08-10'),
+    title: 'Новий партнер приєднався до компанії',
+    link: 'https://example.com/news/3',
+    isImportant: true
+  }
+  ]
