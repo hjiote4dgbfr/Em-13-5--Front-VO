@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import data from './fixtures/cardstextData.json'
+import data from './fixtures/cardstextData'
 import './App.css'
 import CardText from './assets/components'
 
